@@ -1,0 +1,2592 @@
+html {
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+     overflow-x: hidden;
+    z-index: 0;
+}
+.cst_page_main_div {
+    float: left;
+    width: 100%;
+}
+.cst_reward .content {
+    max-width: 817px;
+    margin: 0 auto 30px;
+}
+.cst_reward form.wpcf7-form.init {
+    padding-top: 50px;
+}
+.cst_reward form .row.inner-row {
+    width:100%;
+}
+.cst_reward form .row.inner-row .custom-bed-select {
+    max-width: 50%;
+}
+.products-wrapper {
+    float: left;
+    width: 100%;
+}
+.cst_reward form.wpcf7-form label {
+   
+    padding: 0px 0;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.cst_reward form .contact-button-action {
+    margin-top: 20px;
+}
+.cst_reward form .row.inner_row {
+    padding-left: 15px;
+    width: 100%;
+}
+.reward_in {
+    text-align: center;
+}
+.reward_in h3 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.reward_in p {
+    margin-bottom:15px;
+}
+.about_cust_wrap {
+    max-width: 1094px;
+    margin: 0 auto;
+}
+a.rule-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0px 5px 5px;
+    background: #F2F2F2;
+}
+span.wpcf7-form-control.wpcf7-radio {
+    display: flex;
+}
+span.wpcf7-form-control.wpcf7-radio span.wpcf7-list-item {
+    display: flex;
+    width: 200px;
+    margin-right: 15px;
+    margin-left: 0;
+}
+span.wpcf7-form-control.wpcf7-radio span.wpcf7-list-item input[type="radio"] {
+    max-width: 15px;
+    margin-right: 10px;
+    position: relative;
+    top: -1px;
+}
+ol.warranty li::marker {
+    font-weight: bold;
+    color:#005C00;
+}
+ol.warranty li a {
+    color:#005C00;
+    
+}
+ol.warranty li a:hover {
+    text-decoration: underline;
+}
+ol.warranty li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.about_cust_wrapper {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.about_cust_wrapper h2 {
+    color: #005C00;
+    font-size: 31px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.cst_banner.main-banner {
+    background-size: 100% auto !important;
+    background-position: center center !important;
+}
+.cst_page_main_div .section-title {
+    padding-top: 40px;
+    text-align: center;
+}
+.other_desc .col-sm-6 {
+    align-self: center;
+}
+.other_desc .col-sm-6 h2{
+    color: #005C00;
+    font-size: 31px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.cst_page_main_div .section-title h2 {
+    color: #005C00;
+    font-size: 31px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+.cst_page_main_div .section-title h2:before {
+    background-color: #005C00;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    content: "";
+    left: -55px;
+    top: 50%;
+}
+.cst_page_main_div .section-title h2:after {
+    background-color: #005C00;
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    content: "";
+    right: -55px;
+    top: 50%;
+}
+.cst_page_main_div iframe {
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+.tranding-product-wrapper .owl-nav.disabled {
+    display: block !important;
+}
+.wale1_in img.logo_image {
+    max-width: 270px;
+}
+.answers3 {
+    float: left;
+    width: 100%;
+    /*padding: 40px 0;*/
+}
+
+.other_desc {
+    padding-bottom: 30px;
+    background: #f1f1f1;
+    padding-top: 40px;
+}
+.other_desc img {
+    width: 100%;
+}
+.cust_read_video {
+    position: absolute;
+    left: 26%;
+    top: 59%;
+}
+.cust_read_video img {
+    width: 70px;
+    height: 70px;
+    padding:10px;
+    opacity: 0.9;
+}
+.cust_read_video img:hover {
+    padding:5px;
+    transition: 0.5s;
+     opacity: 1;
+}
+.other-info-section img {
+    max-width: 100%;
+}
+.main_header {
+    float: left;
+    width: 100%;
+}
+.single-pillow-wrap {
+    margin-top: 50px;
+}
+header ul ul.mega-sub-menu a:hover{
+    border: none ;
+}
+.header_fixed {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+     animation-name: menu_sticky;
+    animation-duration: 0.70s;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+}
+ @keyframes menu_sticky {
+        0% {
+            margin-top:-120px;
+            opacity: 0;
+        }
+        50% {
+            margin-top: -90px;
+            opacity: 0;
+        }
+        100% {
+            margin-top: 0;
+            opacity: 1;
+        }
+    }
+.header_fixed .top_bar {
+    padding: 5px 0;
+}
+.aos-animate {
+    transform: unset !important;
+}
+.mega-current_page_item .mega-sub-menu a.mega-menu-link {
+    border-bottom: 0px solid #005C00 !important;
+}
+
+.process-thumb.greyscale img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+}
+.process-content.arrow-one:after {
+    content: url(https://www.woola.co.nz/wp-content/uploads/2021/05/Group-13929-1.png);
+    position: absolute;
+    left: 87px;
+    top: 280px;
+    transform: rotate(108deg);
+}
+.process-content.arrow-two:after {
+    content: url(https://www.woola.co.nz/wp-content/uploads/2021/05/Group-13929-1.png);
+    position: absolute;
+    left: 403px;
+    bottom: 65px;
+    transform: rotate( 
+-12deg
+ );
+}
+.process-content.arrow-three:after {
+    content: url(https://www.woola.co.nz/wp-content/uploads/2021/05/Group-13929-1.png);
+    position: absolute;
+    left: -110px;
+    top: -216px;
+    transform: rotate(
+215deg
+);
+    z-index: -1;
+}
+.natural-wrap-outer .col-sm-4 {
+    text-align: center;
+}
+.natural-wrap-outer .col-sm-4 .natural-source {
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    height: 100%;
+}
+.natural-wrap-outer img {
+    max-width: 190px;
+    height: auto;
+}
+.natural-wrap-outer .col-sm-4 h3 {
+    color: #005C00;
+    font-size: 21px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+section.rule-features-wrap {
+    background: #FAFCFA;
+    padding: 50px 0 30px;
+    float: left;
+    width: 100%;
+}
+ul.rule-feature-inner {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+ul.rule-feature-inner li {
+    padding: 0 7px;
+    align-self: center;
+}
+ul.rule-feature-inner img {
+    max-width: 50px;
+}
+.rule-two-wrap {
+    padding: 60px 0;
+    float: left;
+    width: 100%;
+}
+.process-content.arrow-one, .process-content.arrow-two, .process-content.arrow-three {
+    position: relative;
+}
+.process-content {
+    color: #005C00;
+    font-weight: 600;
+        text-align: center;
+}
+.process-thumb {
+    border-radius: 350px;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 5px solid #0a5d00;
+}
+.process-thumb img {
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    max-width: 100%;
+}
+/* 19-05-2021 */
+.icon_sec a {
+    color: #005C00;
+    font-size: 15px;
+}
+.icon_sec a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.icon-about-us a {
+    color: #005C00;
+    font-size: 15px;
+}
+.icon-about-us a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+section.woola-first-rule-wrap {
+    float: left;
+    background: #fff;
+    width: 100%;
+}
+.natural-wrap-outer {
+    margin: 50px auto;
+}
+.home section.testomonial {
+    display: none;
+}
+.mega-sub-menu .mega-menu-column {
+    max-width: 20% !important;
+    width: 20% !important;
+        border-bottom:2px solid #fff !important;
+}
+ul.mega-sub-menu li a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px !important;
+}
+.mega-mega_cust_menu ul.mega-sub-menu li a.mega-menu-link {
+    padding: 7px !important;
+    text-align: center !important;
+    color: #000 !important;
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+}
+.mega-mega_cust_menu ul.mega-sub-menu li a.mega-menu-link:hover {
+    color: #005C00 !important;
+}
+.mega-sub-menu .mega-menu-column:hover {
+  background-color:#F2F2F2 !important;
+    border-bottom:2px solid #005C00 !important;
+}
+.mega-mega_cust_menu ul.mega-sub-menu li {
+    padding: 0px !important;
+    text-align: center !important;
+}
+.mega-mega_cust_menu ul.mega-sub-menu li a {
+    padding: 3px !important;
+    text-align: center !important;
+}
+.mega-mega_cust_menu2 {
+    background: #fff;
+    background-color: #fff !important;
+    border-top: 2px solid #005C00 !important;
+}
+.mega-mega_cust_menu {
+    background: #fff;
+    background-color: #fff !important;
+  
+}
+/* 19-05-2021 */
+p{
+    color: #404040;
+    font-size: 16px;
+    line-height: 21px;
+}
+section.copyright {
+    width: 100%;
+    float: left;
+    background: #464646;
+    padding: 20px 0;
+    margin-top:50px;
+}
+section.copyright p{
+    color: #fff;
+    margin: 0;
+}
+section.copyright span {
+    padding: 0 10px;
+}
+.top_bar{
+    background: #005C00;
+    padding: 15px 0;
+}
+.top_bar a{
+    color: #fff;
+    font-size: 16px;
+}
+.top_bar a i{
+font-size: 16px;
+padding-left: 5px;
+}
+.top_bar select {
+    background: #005C00;
+    color: #fff;
+    border: 0;
+    text-transform: capitalize;
+    font-size: 14px;
+    outline: none;
+}
+header{
+    padding: 10px 0;
+    background:#fff;
+}
+header li {
+    display: inline-block;
+    padding: 10px 10px; 
+}
+.current-menu-item a{
+    color: #005C00;
+    border-color: #005C00;
+    text-decoration: none;
+}
+header ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+header ul a{
+    color: #404040;
+    font-size: 16px;
+    border-bottom:2px solid transparent;
+    display: block;
+    transition: .2s;
+}
+header ul a:hover{
+    color: #005C00;
+    border-color: #005C00;
+    text-decoration: none;
+}
+.logo img{
+    max-width: 194px;
+    width: 100%;
+}
+.Woola_banner {
+    display: flex;
+    width:100%;
+    /* background: url(../images/banner123.PNG) !important; */
+    background: 100%;
+    background-repeat: no-repeat;
+    /* padding: 135px 0; */
+    position: relative;
+    z-index: -1;
+    justify-content: center;
+        align-items: center;
+}
+.Woola_banner .col-md-7 {
+    padding-left: 75px;
+}
+.Woola_banner img{
+    width: 100%;
+    height:auto;
+}
+.Woola_banner .container{
+    position: absolute;
+}
+.Woola_banner h2{
+  color: #005C00;
+    font-size: 46px;
+    text-transform: capitalize;
+    font-weight: 800;
+} 
+.Woola_banner a {
+       border: 2px solid #105B10;
+    background: #105B10;
+    transition: .3s;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 11px;
+}
+.Woola_banner a:hover , .eco-friend a:hover , .pillow_product a:hover , .Mattress_custom a:hover{
+    color: #105B10;
+    background: #fff;
+    text-decoration: none;
+}
+.icon_sec{
+    background: #F4EADF;
+    padding: 50px 0;
+    text-align: center;
+}
+.icon_sec h2{
+    color: #005C00;
+    font-size: 21px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.icon_sec img {
+    max-width: 105px;
+    width: 100%;
+    height: auto;
+        transition: .3s;
+}
+.icon_sec img:hover {
+    transform: scale(1.1);
+}
+.icon_sec p {
+    max-width: 275px;
+    margin: 0 auto;
+}
+.style_round:before{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: -8px;
+    z-index: 1;
+    opacity: .5;
+    background: rgb(187,193,181);
+    left: -16px;
+    z-index: -2;
+}
+.style_round{
+    position: relative;
+    z-index: 9;
+    opacity: 1.5;
+}
+.eco-friend{
+    width: 100%;
+    float: left;
+        padding: 75px 0;
+}
+.eco-friend h2{
+    color: #005C00; 
+    font-size: 31px;
+    margin-bottom: 10px;
+    max-width: 407px;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+.eco-friend a {
+       border: 2px solid #105B10;
+    transition: .3s;
+    background: #105B10;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 11px;
+}
+.eco-friend img{
+    width: 100%;
+    height: auto;
+}
+section.pillow_product {
+    background: #F3F3F3;
+     width: 100%;
+     float: left;
+    padding: 77px 0;
+}
+.products_in {
+    display: flex;
+    border-top: 4px solid #005C00;
+    padding: 40px 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 24px #00000029;
+    min-height:144px;
+    margin: 25px 0;
+            border-radius: 4px;
+}
+.pillow_product h2{
+        font-size:31px; 
+    color: #005C00;
+    font-weight: 700;
+}
+.products_in img{
+    max-width:84px;
+    height: auto;
+    margin-left: 29px;
+    transition: .3s
+}
+.products_in img:hover {
+    transform: scale(1.1);
+}
+.products_in h3{
+    font-size: 22px; 
+    color: #005C00;
+    align-self: center;
+    padding-left: 30px;
+}
+.pillow_product a{
+       border: 2px solid #105B10;
+    transition: .3s;
+     background: #105B10;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+        display: inline-block;
+    margin-top: 15px;
+}
+.Brain_custom{
+    width: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background:#005C00;
+    margin-bottom:200px;
+    padding-top: 50px;
+}
+section.Brain_custom::after {
+    content: "";
+    width: 100%;
+    height: 126px;
+    position: absolute;
+   bottom: -125px;
+    left: 0;
+    background-repeat: no-repeat !important;
+    background: url(https://www.woola.co.nz/wp-content/uploads/2021/05/curve-before.png);
+    background-size: 100% 100%; 
+}
+section.Brain_custom .col-md-8 img {
+    display: block;
+}
+.Brain_custom img{
+    width: 100%;
+  height: auto;
+     max-height: 605px;
+     display:none;
+}
+.Brain_custom .container{
+margin-bottom:-222px;
+z-index: 1;
+
+}
+.Brain_custom .container .brain-ved {
+    max-width: 750px;
+    margin: 30px auto 0;
+}
+.Brain_custom .container .row{
+    justify-content: center;
+    text-align: center;
+}
+.Brain_custom h2{
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+}
+.Mattress_custom{
+    width: 100%;
+    float: left;
+}
+section.Mattress_custom .col-md-6.text-center {
+    overflow: hidden;
+}
+.Mattress_custom img{
+    max-width: 500px;
+    width: 100%;
+    transition: .3s;
+}
+.Mattress_custom img:hover {
+    transform: scale(1.1);
+}
+.Mattress_custom h2{
+        font-size:31px; 
+    color: #005C00;
+    font-weight: 700;
+}
+.Mattress_custom a{
+       border: 2px solid #105B10;
+    transition: .3s;
+     background: #105B10;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color: #FFFFFF;
+        display: inline-block;
+    margin-top: 15px;
+}
+.Mattress_custom .col-md-6{
+padding-top: 77px;
+}
+.Mattress_custom .mattress_in {
+    max-width: 436px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Distributor{
+    width: 100%;
+    float: left;background: url("https://www.woola.co.nz/wp-content/uploads/2021/05/green_bk.png");
+    background-size: 100%;
+    padding: 50px 0;
+        margin: 70px 0;
+
+}
+.Distributor p {
+    color: #fff;
+    max-width: 671px;
+    margin: 0 auto;
+}
+.Distributor h2{
+color: #fff;
+font-size: 31px;
+font-weight: 700;
+}
+.Distributor a{
+    border: 2px solid #fff;
+    transition: .3s;
+     background:#FFFFFF ;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color:#105B10 ;
+        display: inline-block;
+    margin-top: 15px;
+}
+.Distributor a:hover , .wale1_in a:hover {
+    background: #105B10;
+    color: #fff;
+    text-decoration: none;
+}
+.wales1{
+    /*background: #005C00;*/
+       /* padding: 127px 0;*/
+        align-self: center;
+}
+.prices-of-wales{
+    background: #005C00;
+    width: 100%;
+    float:left;
+}
+.wale1_in h2{
+    font-size: 31px;
+    color: #fff;
+}
+.wale1_in a{
+    border: 2px solid #fff;
+    transition: .3s;
+     background:#FFFFFF ;
+    padding: 10px 36px;
+    border-radius: 25px;
+    color:#105B10 ;
+        display: inline-block;
+    margin-top: 15px;
+}
+.wale1_in {
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+.wale1_in p {
+    color: #fff;
+}
+.col-md-6.wales2 {
+    overflow: hidden;
+    padding: 0;
+}
+.wales2 img{
+    width: 100%;
+    height: auto;
+    transition: .3s;
+}
+.wales2 img:hover {
+    transform: scale(1.2);
+}
+
+footer{
+    padding: 50px 0 0;
+    background: #005C00;
+    width: 100%;
+    float: left;
+}
+footer img{
+    max-width: 140px;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+footer h4{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+footer p{
+    color: #fff;
+    margin-bottom: 12px;
+}
+footer a{
+    color: #fff;
+    font-size: 16px;
+}
+footer a:hover {
+    color: #fff;
+    font-size: 16px;
+}
+.footer-main-icon{
+    display: flex;
+}
+.footer-main-in{
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin-right: 5px;
+    transition: .3s;
+}
+.footer-main-in:hover{
+    background:#3D833D;
+}
+.footer-main-in a{
+    color:#3D833D;
+}
+.footer-main-in:hover a{
+    color: #fff;
+}
+.footer-Contact i.fa {
+    margin-top: 5px;
+    height: 14px;
+    display: inline-block;
+    float: left;
+    height: 25px;
+    padding-right: 8px;
+}
+.testomonial{
+padding: 76px 0;
+    width: 100%;
+    float: left;
+    background: url("https://www.woola.co.nz/wp-content/uploads/2021/05/testo-bk.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+}
+.testomonial h2{
+            font-size:31px; 
+    color: #005C00;
+    font-weight: 700;
+        padding-bottom: 22px;
+} 
+
+.testo_in img{
+    max-width: 100px;
+    width: 100%;
+}
+.testo_in {
+    background: #fff;
+    padding: 30px 22px;
+    box-shadow: 0px 13px 24px #00000014;
+    border-radius: 5px;
+    position:relative;
+}
+.testo_in::before {
+    content: "";
+    background: url(https://www.woola.co.nz/wp-content/uploads/2021/05/quote.png);
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    position: absolute;
+    left: 19%;
+    top: 57px;
+}
+.testo_in h5{
+        color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+.testo_in h6{
+    color: #005C00;
+    font-size:18px;
+    font-weight: 600;
+    font-style: italic;
+}
+.testo_in span{
+    color:#FFC107;
+    font-size: 17px;
+}
+/* about*/
+.main-banner {
+    background-repeat: no-repeat !important;
+    padding: 110px 0;
+    width: 100%;
+    float: left;
+    background-size: 100% 100% !important;
+}
+.Woola_about-banner{
+    background: url("https://www.woola.co.nz/wp-content/uploads/2021/05/bt-and2222-1.png");
+}
+.main-banner h3{
+text-align: center;
+color: #fff;
+font-size: 25px;
+font-weight:500;
+    margin-bottom:0;
+}
+.eco-friend p {
+    max-width: 470px;
+}
+.icon-about-us{
+    background-color:#FBFBFB;
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+}
+.Brain_custom .container .brain-ved{
+    position:relative;
+}
+.cust_about_video a{
+    border: unset;
+    transition: unset;
+    background: unset;
+    padding: unset;
+    border-radius: unset;
+    color: unset;
+    float: unset;
+    margin-top: unset;
+    }
+.cust_about_video {
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: 75px;
+    position: absolute;
+    bottom: -30px;
+    left: 20%;
+}
+.cust_about_video img {
+    padding: 10px;
+    opacity: 0.9;
+}
+.cust_about_video img:hover {
+    padding: 5px;
+    transition: 0.5s;
+    opacity: 1;
+}
+.cust_about_video:hover {
+    background: transparent;
+    border: none;
+    padding: 0;
+      cursor:pointer;
+  
+}
+.cust_home_video {
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+.single-pillow-wrap .main-product-thumb .slick-list.draggable {
+    max-height: 350px;
+}
+.sub-thumbs.slider-nav .slick-slide{
+    width:auto!important;
+    margin-right:10px;
+}
+.cust_home_video:hover {
+    background: transparent;
+    border: none;
+    padding: 0;
+      cursor:pointer;
+  
+}
+.icon-about-us img {
+    width: auto;
+    transition: .2s;
+    max-height: 69px;
+}
+.icon-about-us img:hover {
+    transform: scale(1.2);
+}
+.icon-about-us h3 {
+    color: #005C00;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.icon-about-us  p {
+    max-width: 303px;
+    margin: 0 auto;
+}
+.abt-shadow {
+    float: left;
+    height:100%;
+    width: 100%;
+    background: #fff;
+        border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+        border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 70px;
+         box-shadow: 0px 3px 24px #00000029;
+         overflow: hidden;
+}
+.abt-shadow_1 {
+    width: 100%;
+    float: left;
+    background: #005C00;
+    padding: 15px 0;
+}
+.abt-shadow_2 {
+    width: 100%;
+    padding: 35px;
+    float: left;
+    background: #fff;
+        min-height: 275px;
+        text-align: center;
+}
+.abt-shadow h2 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.abt-shadow_1 p{
+    margin: 0;
+}
+section.shadow-sec {
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+}
+section.bio-sec {
+    width: 100%;
+    float: left;
+     background: url('https://www.woola.co.nz/wp-content/uploads/2021/05/Mask-Group-40.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+        text-align: center;
+    padding: 70px 0;
+}
+section.bio-sec img {
+    max-width: 187px;
+    width: 100%;
+    height: auto;
+    transition: .3s
+}
+section.bio-sec img:hover {
+    transform: scale(1.1);
+}
+section.bio-sec h3 {
+    color: #005C00;
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight:600;
+}
+/*blog*/
+.blog-banner{
+    background: url("https://www.woola.co.nz/wp-content/uploads/2021/05/blog-banner.jpg");
+}
+.blog-natural img {
+    width: 100%;
+    box-shadow: 0px 0px 9px #ccc;
+    margin: 3% 0;
+    border: 10px solid #fff;
+    float: left;
+    z-index: 9999;
+}
+.blog-natural .col-md-7{
+    overflow: hidden;
+}
+section.blog-natural {
+    padding: 50px;
+    width: 100%;
+    float: left;
+}
+.blog-natural span , .blog-natural a span{
+    color: #005C00;
+    font-size: 12px;
+}
+.blog-natural h2{
+color: #005C00;
+    font-size: 27px;
+    font-weight: 700;
+    max-width: 330px;
+}
+.blog-natural p {
+    max-width: 459px;
+}
+.blog-product-img {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.blog-product-img img{
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    transform: scale(1);
+}
+.blog-product-img img:hover {
+    transform: scale(1.2);
+}
+.blog-product-in {
+    position: absolute;
+    background:#005C00;
+    padding: 5px 25px;
+    right: 0;
+    bottom: 9px;
+    color: #fff;
+    font-size: 11px;
+}
+section.blog-product .col-md-4 {
+    padding: 15px;
+}
+section.blog-product h2 {
+    color: #005C00;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    float: left;
+    width: 100%;
+}
+section.blog-product a span{
+color: #005C00;
+    font-size: 12px;
+    }
+section.copyright .col-md-6.text-right {
+    text-align: center !important;
+}
+.product_tabs_content {
+    padding-top: 16px;
+}
+.product_tabs_content  .nav-tabs .nav-item {
+    margin-right: 27px;
+}
+
+/* .slick-slide img {
+    width: 200px !important;
+    height: 100px !important;
+} */
+    /*====---contact-us-----=====*/
+    .contact-banner{
+    background: url("https://www.woola.co.nz/wp-content/uploads/2021/05/contact-banner.jpg");
+}
+.contact-social_in {
+   max-width: 339px;
+    width: 100%;
+        min-height: 217px;
+    float: left;
+    background: #fff;
+    padding: 42px 0;
+    border-radius: 37px 37px 104px 37px;
+    box-shadow: 0px 3px 24px #00000029;
+    text-align: center;
+    margin: auto;
+}
+.contact-social_in i.fa {
+    display: block;
+    color: #005C00;
+    font-size: 73px;
+}
+.contact-social_in a {
+    color: #404040;
+    padding-top: 18px;
+    display: block;
+        font-size: 14px;
+}
+section.contact-social {
+    background: #F5F5F5;
+    width: 100%;
+    float: left;
+    padding: 98px 0;
+}
+.form-pugin-sec{
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 70px 0;
+    text-align: center;
+}
+.form-pugin-sec h2{
+    color: #005C00;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.form-pugin-sec p {
+    margin: 0 auto;
+    max-width: 817px;
+}
+form.wpcf7-form {
+    padding-top: 70px;
+}
+form.wpcf7-form label {
+    text-align: left;
+    color: #404040;
+    font-size: 16px;
+    width: 100%;
+    padding: 7px 0;
+}
+form.wpcf7-form input , form.wpcf7-form textarea{
+    border: 1px solid #707070;
+    border-radius: 6px;
+    padding: 7px;
+    width: 100%;
+    opacity: 0.58;
+    margin-top: 6px;
+}
+input.wpcf7-form-control.wpcf7-submit:hover{
+    color: #105B10 !important;
+    background:#fff;
+}
+span.ajax-loader {
+    display: none !important;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    width: unset !important;
+    border: 2px solid #105B10 !important;
+    background: #105B10;
+    transition: .3s;
+    padding: 10px 36px !important;
+    border-radius: 25px !important;
+    color: #FFFFFF !important;
+    float: left;
+    margin-top: 11px !important;
+  opacity:1 !important;
+    float: unset;
+    box-shadow:0px 3px 6px #328ecb4f;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    max-height: 140px;
+}
+form.wpcf7-form input:focus , form.wpcf7-form.init textarea:focus{
+    outline:none !important;
+}
+.single.single-post h2{
+    color: #005C00;
+    font-size: 31px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.single.single-post .artical_header_contant_heading{
+    width:100%;
+}
+.single.single-post  .row.article_img_overlap_in {
+    padding: 50px 0;
+    text-align:center;
+}
+.single.single-post .col-md-12.article_para_contant {
+    max-width: 711px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+.single.single-post .cust_blog_left {
+    display: flex;
+    justify-content: space-around;
+}
+.single.single-post h3{
+        font-size: 31px;
+    color: #005C00;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+.single.single-post .article_middle_footer_sec4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.single.single-post .article_middle_footer_sec4  h3 {
+    width: 100%;
+}
+.single.single-post .article_middle_footer_sec4_logo{
+    border: 1px solid #005C00;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #005C00;
+    text-align: center;
+    margin-right: 5px;
+    transition: .3s;
+}
+.single.single-post .article_middle_footer_sec4_logo a{
+    color:#fff;
+}
+.single.single-post .article_middle_footer_sec4_logo:hover{
+    background:#fff;
+}
+.single.single-post .article_middle_footer_sec4_logo:hover  a{
+    color: #005C00;
+} 
+.single.single-post  .cust_blog_left p {
+    color: #005C00;
+}
+ul.page-numbers li:hover{
+    background:#fff;
+    color: #005C00;
+}
+ul.page-numbers li:hover a{
+    color:#005C00;
+}
+ul.page-numbers li span:hover{
+    cursor:pointer;
+}
+ul.page-numbers li {
+    display: inline-block;
+    height: 40px;
+    width: 51px;
+    line-height: 40px;
+    background: #005C00;
+    border:2px solid  #005C00;
+    border-radius: 35px;
+    text-align: center;
+    color: #fff;
+}
+ul.page-numbers li a{
+    color:#fff;
+}
+ul.page-numbers {
+    padding: 0;
+}
+.page-template-shop .main-banner{
+/* background-image: url('http://staging.loftitsolutions.com/woola/wp-content/uploads/2021/05/product_img.png') !important; */
+        margin-bottom: 60px;
+}
+.page-template .products-listing-outer {
+    margin-bottom: 10px;
+}
+.cust_product {
+    margin-bottom: 30px;
+}
+.page-template-shop .products-inner .attachment-.size-.wp-post-image {
+    background: #F0F0F0;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.other-info-section .col-md-4.col-sm-6.col-12 {
+    text-align: center;
+}
+.page-template-shop .products-inner .attachment-.size-.wp-post-image:hover {
+    box-shadow:inset 0px 0px 0px 2px #005C00;
+    transition:0.5s;
+}
+.page-template-shop .products-listing-outer h2.title.clearfix {
+    color: #474747;
+    font-weight: 400;
+    font-size: 20px;
+}
+.page-template-shop .products-listing-outer h2.title.clearfix:hover {
+    color:#005C00;
+    font-weight:500;
+    transition:0.5s;
+}
+.page-template-shop .products-listing-outer a:hover {
+    text-decoration:none;
+}
+.single-product .product-slider-outer .tranding-product-thumb img{
+     background: #F0F0F0;
+    padding: 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.single-product .product-slider-outer .tranding-product-thumb img:hover{
+     box-shadow:inset 0px 0px 0px 2px #005C00;
+    transition:0.5s;
+}
+.single-product .product-slider-outer {
+    margin-bottom: 60px;
+}
+.single-product .product-slider-outer h2{
+   text-align:left;
+}
+.single-product .product-slider-outer h2 a{
+    color: #474747;
+    font-weight: 400;
+    font-size: 20px;
+}
+.single-product .product-slider-outer h2 a:hover {
+    color:#005C00;
+    font-weight:500;
+    text-decoration:none;
+    transition:0.5s;
+}
+.single-product .product-slider-outer a.btn.btn-link{
+    font-weight: 400;
+     color: #474747;
+}
+.single-product .product-slider-outer a.btn.btn-link
+:hover{
+    color:#005C00;
+    font-weight:500;
+    text-decoration:none;
+    transition:0.5s;
+}
+section.tranding-product-wrapper.related-products .container {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #F0F0F0;
+    text-align: center;
+}
+section.tranding-product-wrapper.related-products .section-title h2 {
+    color: #005C00;
+    font-size: 23px;
+    margin-bottom: 25px;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.product_tabs_content .nav.nav-tabs{
+    border-color:#F0F0F0;
+        margin-bottom: 30px;
+        margin-top: 40px;
+}
+.product_tabs_content a.nav-link.active {
+    border: none;
+    border-bottom:2px solid #005C00;
+}
+.product_tabs_content a.nav-link {
+    color: #404040;
+    border-bottom:2px solid transparent;
+}
+.product_tabs_content a.nav-link:hover {
+    color: #005C00;
+    border:none;
+    border-bottom:2px solid #005C00;
+}
+.product_tabs_content {
+    width: 100%;
+}
+
+.single-product .main-product-thumb .owl-item {
+    background: #F0F0F0;
+    height: 350px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.single-product .main-product-thumb .owl-item .item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.single-product .main-product-thumb .owl-item .item a{
+align-self: center;
+}
+.single-product .main-product-thumb .owl-nav {
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    margin-top:-20px;
+}
+.single-product .main-product-thumb button.owl-next {
+    right: 0 !important;
+    position: absolute;
+}
+.single-product .main-product-thumb .owl-nav button {
+    width: 40px;
+    height: 40px;
+    color: #fff !important;
+    background: #005C00 !important;
+    font-size: 27px !important;
+    opacity: 0.7;
+    outline: none !important;
+}
+.single-product .main-product-thumb .owl-nav button:hover {
+    opacity: 1;
+}
+.single-product .main-product-thumb .owl-nav button:focus {
+    
+    outline: none !important;
+}
+.single-product .sub-thumbs .owl-stage-outer {
+    margin-top: 15px;
+}
+.single-product .sub-thumbs .owl-stage-outer img {
+    background: #F0F0F0;
+    height: 60px;
+    padding: 0px;
+    max-width: 90px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.tranding-product-wrapper .owl-nav button {
+    width: 40px;
+    height: 40px;
+    color: #fff !important;
+    background: #005C00 !important;
+    font-size: 27px !important;
+    opacity: 0.9;
+    outline: none !important;
+    margin-left: 5px;
+}
+
+.tranding-product-wrapper .owl-nav button:hover {
+    opacity: 1;
+}
+.tranding-product-wrapper .owl-nav {
+    position: absolute;
+    top: -55px;
+    right: 15px;
+}
+.tranding-product-wrapper .owl-nav button span {
+    position: relative;
+    top: -2px;
+}
+.tranding-product-item.col-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.tranding-product-wrapper .owl-dots {
+    display: none;
+}
+.single-product .main-product-thumb .slick-slide.slick-current.slick-active a.fancybox.main-images {
+    align-self: center;
+}
+.sub-thumbs.slider-nav img {
+    background: #F0F0F0;
+    width: auto;
+    height: 60px;
+    margin-top: 20px;
+    padding: 0px;
+}
+.product_content .product_title h2 {
+    color: #005C00;
+    font-size: 23px;
+    margin-top: 20px;
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.mega-current_page_item a.mega-menu-link{
+    color:#005C00;
+    border-bottom:2px solid #005C00 !important;
+}
+section.copyright a {
+    color: #fff;
+}
+.skiptranslate.goog-te-gadget {
+    max-width: 152px;
+    overflow: hidden;
+    float: right;
+}
+select.goog-te-combo {
+    width: 152px;
+}
+a.mega-menu-link {
+    padding: 0 !important;
+    margin: 20px !important;
+}
+div#mega-toggle-block-0 {
+    background: #005C00;
+    height: 40px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.mega-menu-toggle.mega-menu-open {
+    position: relative;
+}
+li.breadcrumb-item a , li.breadcrumb-item i {
+    color: #005C00;
+}
+ .single.single-product .sub-thumbs ul.slick-dots {
+    display: none !important;
+}
+button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50%;
+    color: transparent;
+    position: absolute;
+    top: 42%;
+    background:#005C00 !important;
+    border:2px solid  #005C00 !important;
+    transition:.3s;
+}
+button.slick-next.slick-arrow{
+    right:0;
+}
+button.slick-prev.slick-arrow{
+    left:0;
+}
+button.slick-next.slick-arrow:focus , button.slick-prev.slick-arrow:focus{
+    outline:none !important;
+}
+button.slick-next.slick-arrow:hover , button.slick-prev.slick-arrow:hover{
+    background: transparent !important;
+}
+.single.single-product .sub-thumbs.slider-nav.slick-initialized.slick-slider {
+    position: unset !important;
+}
+button.slick-prev.slick-arrow:before {
+    content: "";
+    z-index: 9999;
+    height: 16px;
+    width: 16px;
+    left: 6px;
+    top: 5px;
+    background-size: contain;
+    color: red;
+    background-image: url(https://www.woola.co.nz/wp-content/uploads/2021/05/left-white.png) !important;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+button.slick-next.slick-arrow:before {
+      content: "";
+    z-index: 9999;
+    height: 16px;
+    width: 16px;
+    left: 11px;
+    top: 5px;
+    background-size: contain;
+    color: red;
+    background-image: url(https://www.woola.co.nz/wp-content/uploads/2021/05/right-white.png) !important;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+button.slick-next.slick-arrow:hover::before{
+    background-image:url("https://www.woola.co.nz/wp-content/uploads/2021/05/right-green.png") !important;
+}       
+button.slick-prev.slick-arrow:hover::before{
+    background-image:url("https://www.woola.co.nz/wp-content/uploads/2021/05/left-green.png") !important;
+}
+
+
+.third-rule-wrap.reverse {
+    background-color: #f1f1f1;
+}
+/*.rule-thumb_new h2 {
+    color: #005C00;
+    font-size: 31px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+}*/
+
+.rule-third-outer .rule-thumb p {
+    /*padding-top: 70px;*/
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+   /* padding-right: 40px;*/
+    max-width: 250px;
+    text-transform: capitalize;
+    line-height: 31px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.rule-thumb_new img {
+    width: 476px;
+    height: 350px;
+    margin: 0 auto;
+    object-fit: cover;
+    position: relative;
+    max-width: 100%;
+}
+.rule-thumb_new {
+    position: relative;
+    width: 476px;
+    height: 350px;
+    margin: 0 auto;
+     transition: .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.rule-thumb_new h2 {
+    position: absolute;
+    color: #fff !important;
+    max-width: 360px;
+    opacity: 0;
+    text-align: center;
+    z-index: 9999;
+    align-self: center;
+}
+.rule-thumb_new:after {
+    content: "";
+    background: rgba(0,0,0,0.5);
+    transition: all .7s ease;
+     -webkit-transition: all .7s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    top: 0;
+   
+}
+.rule-thumb_new:hover:after {
+    opacity: 1;
+   
+}
+
+.third-rule-wrap h2 {
+    color: #005C00;
+    font-size: 31px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+	.rule-thumb_new:hover h2 {
+	opacity: 1;
+	transition: all .7s ease;
+     -webkit-transition: all .7s ease;
+	}
+	/*@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+*/
+/*.rule-third-outer .rule-thumb {
+    height: 230px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 230px;
+    border-radius: 300px;
+    margin: auto;
+    border: 5px solid #0a5d00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+.third-rule-wrap.reverse .rule-thumb p {
+    padding-top: 0;
+    color: #fff;
+    padding-right: 0;
+    text-align: center;
+}
+.third-rule-wrap .rule-third-text {
+    text-align: left;
+}
+.third-rule-wrap.reverse .rule-third-text img {
+    max-width: 220px;
+}
+.third-rule-wrap.reverse .row {
+    flex-direction: row-reverse;
+}
+.third-rule-wrap {
+    padding: 25px 0;
+}
+.answers3 .col-md-6 {
+    align-self: center;
+}
+
+@media(max-width:1199px){
+    .rule-thumb_new h2 {
+    font-size: 26px;
+}
+    .ft_logo {
+        max-width:20%;
+        flex:0 0 20%;
+}
+    .footer-Contact{
+        max-width:30%;
+        flex:0 0 30%;
+    }
+ .process-content.arrow-one:after {
+    left: 10px;
+}
+.process-content.arrow-two:after {
+    left: 350px;
+    }
+    .process-content.arrow-three:after {
+    
+    left: -75px;
+    top: -186px;
+    transform: rotate(
+215deg
+);
+    max-width: 355px;
+    overflow: hidden;
+}
+
+}
+@media(max-width:1024px){
+.main-banner {
+    background-size: auto 100% !important;
+    padding: 80px 0;
+}
+    .page-template-shop .products-inner .attachment-.size-.wp-post-image {
+   
+    height: auto;
+}
+}
+@media(max-width:991px){
+	.rule-thumb_new img {
+    height: 300px;
+}
+ .rule-thumb_new {
+    height: 300px;
+}
+.rule-thumb_new h2 {
+    max-width: 300px;
+    }
+	.wale1_in img.logo_image {
+    max-width: 224px;
+}
+	.rule-third-outer .rule-thumb{
+		width:220px;
+		height: 220px;
+	}
+	.tranding-product-wrapper .product-slider.row {
+    margin-left: 0;
+}
+	.wales2 img {
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    min-height: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+    .process-content.arrow-two:after {
+    left: 283px;
+    width: 250px;
+    overflow: hidden;
+    transform: rotate( 
+-20deg
+ );
+    top: 160px;
+}
+.cust_read_video {
+    position: absolute;
+    left: 12%;
+    top: 59%;
+}
+.process-content.arrow-one:after {
+    left: 20px;
+    top: 230px;
+    transform: rotate( 
+103deg
+ );
+    overflow: hidden;
+    width: 250px;
+}
+.process-content.arrow-three:after {
+    left: -100px;
+    top: -200px;
+    transform: rotate( 
+220deg
+ );
+    max-width: 355px;
+    overflow: hidden;
+}
+    .header_fixed {
+    position: static;
+}
+.natural-wrap-outer img {
+    max-width: 150px;
+    height: auto;
+}
+ul.rule-feature-inner img {
+    max-width: 50px;
+    margin-bottom: 5px;
+}
+.natural-wrap-outer .row {
+    justify-content: center;
+}
+.rule-features-outer .col-sm-4.col-xs-12 {
+    padding-right: 0;
+}
+.natural-wrap-outer .col-sm-4 .natural-source {
+    padding: 10px;
+}
+    .form-pugin-sec {
+    padding: 40px 0;
+    }
+    form.wpcf7-form {
+    padding-top: 50px;
+}
+    section.contact-social {
+    padding: 40px 0;
+}
+    .cust_about_video {
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: 45px;
+    position: absolute;
+    bottom: unset;
+    left: 20%;
+    top: 67%;
+    padding: 0 !important;
+}
+    .icon-about-us h3 {
+    min-height: 50px;
+}
+    section.shadow-sec {
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+}
+    .icon-about-us {
+   
+    padding: 40px 0;
+}
+    .Woola_banner h2 {
+    font-size: 32px;
+}
+    .icon_sec h2 {
+    min-height: 50px;
+}
+    .other_desc .col-sm-6 h2, .eco-friend h2,.pillow_product h2,.Brain_custom h2,.Mattress_custom h2,.Distributor h2,.wale1_in h2,.testomonial h2,.form-pugin-sec h2 {
+    font-size: 26px;
+    }
+    .products_in h3 {
+    font-size: 18px;
+    padding-left: 10px;
+}
+.products_in img {
+    max-width: unset;
+    margin-left: 10px;
+    transition: .3s;
+    height: 48px;
+}
+    .products_in {
+    padding: 22px 5px;
+    min-height: 100px;
+    margin: 15px 0;
+}
+    .testo_in h5 {
+   
+    min-height: 75px;
+}
+    .pillow_product a,.eco-friend a,.Woola_banner a,.Mattress_custom a,.Distributor a,.wale1_in a {
+        padding: 5px 20px;
+    }
+    footer  .container{
+        max-width:100%;
+    }
+    .ft_logo {
+    text-align: center;
+        max-width:17%;
+        flex:0 0 17%;
+}
+    .footer-Contact{
+        max-width:33%;
+        flex:0 0 33%;
+    }
+    .footer-main-in {
+    border: 1px solid #fff;
+    height: 35px;
+    width: 35px;
+        line-height: 35px;
+    }
+    .wale1_in {
+    max-width: 370px;
+    margin-right: 0px;
+    margin-left: 15px;
+}
+    .testomonial {
+        padding: 40px 0;
+    }
+
+    .Distributor{
+    background-size: cover;
+    padding: 35px 0;
+        margin: 40px 0;
+        background-position: center center;
+}
+    .eco-friend {
+    padding: 40px 0;
+}
+    .icon_sec img {
+    max-width: 80px;
+    }
+    .top_bar {
+    padding: 10px 0;
+}
+    section.copyright span {
+    padding: 0 3px;
+}
+    section.Brain_custom::after {
+    background-size: contain;
+}
+    .Brain_custom {
+   
+    padding-top: 40px;
+}
+    .single-product .container{
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    .page-template-shop  .container{
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.natural-wrap-outer .col-sm-4 {
+    text-align: center;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+.natural-wrap-outer {
+    margin: 50px auto 20px;
+}
+ul.rule-feature-inner {
+    flex-direction: column;
+}
+.rule-features-outer .col-sm-4.col-xs-12 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+section.rule-features-wrap {
+    padding: 40px 0 10px;
+}
+}
+
+@media(max-width:767px){
+    .cst_order2{
+        order: 2;
+    }
+    .cst_order2{
+        order: 1;
+    }
+    .rule-thumb_new h2 {
+    font-size: 22px;
+    max-width: 240px;
+}
+.rule-thumb_new {
+    margin-bottom: 20px;
+}
+.rule-thumb_new {
+    height: unset;
+}
+.rule-thumb_new img{
+    height: unset;
+}
+.third-rule-wrap .rule-third-text {
+    text-align: center;
+}
+/*.rule-third-outer .row {
+    flex-direction: column-reverse;
+}*/
+    .third-rule-wrap.reverse .row {
+    flex-direction: column-reverse;
+}
+	.answers3 .col-md-4{
+    margin-bottom: 30px;
+}
+.woola-first-rule-wrap .col-md-4 {
+    margin-bottom: 30px;
+}
+		.wales2 img {
+    min-height: 440px;
+}
+    .cust_read_video {
+    position: absolute;
+    left: 16%;
+    top: 58%;
+}
+.cust_read_video img {
+    width: 60px;
+    height: 60px;
+}
+        .process-content.arrow-two:after, .process-content.arrow-one:after, .process-content.arrow-three:after {
+    display: none;
+}
+.rule-features-outer .col-sm-4.col-xs-12 {
+    padding-right: 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+section.rule-features-wrap {
+    padding: 20px 0 10px;
+    width: 100%;
+}
+.natural-wrap-outer .col-sm-4 .natural-source {
+    padding: 15px;
+    max-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+}
+.natural-wrap-outer .col-sm-4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.natural-wrap-outer {
+    margin: 30px auto 10px;
+}
+.mega-sub-menu .mega-menu-column {
+    max-width: 100% !important;
+    width: 100% !important;
+    border-bottom: 1px solid #005C00 !important;
+}
+.mega-sub-menu .mega-menu-column .widget_media_image {
+    display: none !important;
+}
+.mega-mega_cust_menu ul.mega-sub-menu li a.mega-menu-link {
+    margin: 0px !important;
+    text-align: left !important;
+        padding-bottom: 7px !important;
+    color: #000 !important;
+}
+    header .col-9.navi.align-self-center.aos-init.aos-animate {
+    z-index: 999;
+}
+    .logo img {
+    max-width: 161px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+    header .col-3.logo{
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+ a.mega-menu-link {
+    margin: 1px 12px !important;
+}
+header li {
+    border-bottom: 1px solid #f1f1f1 !important;
+}
+header li:last-child {
+    border-bottom: 0px solid #f1f1f1 !important;
+}
+ul#mega-menu-primary {
+    position: absolute !important;
+    z-index: 999 !important;
+    width: 280px !important;
+    right: 6px !important;
+    top: 40px !important;
+}
+        header .col-9.navi{
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+    .single-product .product-slider-outer .tranding-product-thumb img {
+    height: 180px;
+}
+.tranding-product-wrapper .owl-nav {
+    position: unset;
+    
+}
+.tranding-product-wrapper .owl-nav button{
+	margin-right:5px;
+	margin-top: 20px;
+}
+    .cust_product {
+    max-width: 50%;
+    flex: 50%;
+}
+    .Woola_banner .container{
+        max-width:100%;
+    }
+    .Woola_banner .container .row{
+        justify-content: flex-end;
+    }
+    .Woola_banner .container .col-md-7{
+        max-width:400px;
+    }
+    .Woola_banner h2 {
+    font-size: 28px;
+}
+
+    .home .container,.page-template-about-us .container,.page-template-contact-us .container{
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    .icon_sec .col-md-4, .icon-about-us .col-md-4, .shadow-sec .col-md-4,.bio-sec .col-md-4{
+    max-width: 33%;
+}
+        .contact-social .col-md-4 {
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: center;
+}
+    section.contact-social {
+    padding: 40px 0 0;
+}
+    .contact-social_in {
+    max-width: 275px;
+        margin:0 auto;
+    }
+    .contact-social_in i.fa {
+    display: block;
+    color: #005C00;
+    font-size: 50px;
+}
+    .cust_about_video {
+    top: 30vw;
+    }
+    section.bio-sec img {
+        max-width: 120px;}
+    .eco-friend .col-md-6, .pillow_product .col-md-4, .Mattress_custom .col-md-6, .prices-of-wales .col-md-6 {
+    max-width: 50%;
+}
+    .testo_in h5 {
+    min-height: unset;
+}
+    .ft_logo {
+    text-align: left;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+    .footer-Contact {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+    footer .col-md-3{
+        margin-bottom:20px;
+    }
+    footer {
+    padding: 35px 0 15px;
+   
+}
+    .copyright .col-md-6.text-right {
+    text-align: center !important;
+    margin-top: 10px;
+}
+        .copyright .col-md-6{
+    text-align: center !important;
+    }
+.top_bar    .col-md-6{
+    display: none;
+}
+    .top_bar    .col-md-3{
+    max-width: 50%;
+}
+    .testo_in {
+   
+    margin-bottom: 25px;
+}
+    .testomonial {
+    padding: 40px 0 15px;
+}
+    section.bio-sec {
+    padding: 40px 0;
+}
+.process-thumb {
+    border-radius: 350px;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 5px solid #0a5d00;
+    margin-top: 20px;
+}
+}
+
+@media(max-width:575px){
+    .cst_reward form.wpcf7-form label {
+    margin-top: 20px;
+}
+    .cst_page_main_div .section-title h2{
+        padding-left: 30px;
+        padding-right:30px;
+    font-size: 22px;
+}
+.cst_page_main_div .section-title h2:before {
+    width: 30px;
+    left: -5px;
+}
+.cst_page_main_div .section-title h2:after {
+    width: 30px;
+    right: -5px;
+}
+.other_desc {
+    text-align: center;
+}
+.cst_reward form.wpcf7-form.init {
+    padding-top: 10px;
+}
+    span.wpcf7-form-control.wpcf7-radio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+    .cst_page_main_div .section-title {
+    padding-top: 15px;
+    text-align: center;
+}
+	.rule-third-outer .rule-thumb {
+    margin-top: 30px;
+}
+.third-rule-wrap.reverse .rule-third-text img {
+    max-width: 180px;
+}
+	.tranding-product-item.col-4 {
+    flex: 0 0 100%;
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+	.wales2 img {
+    width: 100%;
+    height: auto;
+    transition: .3s;
+    min-height: unset;
+    object-fit: unset;
+    object-position: unset;
+}
+    .single-product .sub-thumbs .owl-stage-outer img {
+    height: 50px;
+    padding: 5px;
+    max-width: 70px;
+}
+.cust_read_video img {
+    width: 55px;
+    height: 55px;
+}
+.cust_read_video {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    margin-left: -90px;
+}
+.process-content {
+    margin-bottom: 25px;
+}
+
+.rule-two-wrap {
+    padding: 25px 0;
+}
+.process-thumb {
+    height: 170px;
+    width: 170px;
+    }
+.rule-features-outer .row {
+    justify-content: center;
+}
+.eco-friend h2 {
+    max-width: unset;
+    }
+.natural-wrap-outer .col-sm-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    .product_tabs_content .nav-tabs .nav-item {
+    margin-right: 0px;
+}
+    .Woola_banner {
+        display: block;
+    }
+    .Woola_banner .container {
+    position: static;
+        margin:30px 0;
+}
+    .Woola_banner .container .col-md-7 {
+    max-width: 100%;
+    padding-left: 15px;
+    text-align: center;
+}
+    
+    .style_round {
+    display: inline-block;
+}
+        .eco-friend .col-md-6, .pillow_product .col-md-4, .Mattress_custom .col-md-6, .prices-of-wales .col-md-6 {
+    max-width: 100%;
+}
+    .pillow_product .col-md-4, .Mattress_custom .col-md-6, .prices-of-wales .col-md-6{
+    max-width: 100%;
+} .icon-about-us .col-md-4, .shadow-sec .col-md-4, .bio-sec .col-md-4{
+    max-width: 100%;
+}
+
+    .cust_about_video {
+    top: unset;
+    bottom: -15px;
+}
+    .main-banner {
+   
+    padding: 45px 0;
+}
+    .Woola_banner a,.eco-friend a {
+    float: unset;
+    }
+    .icon_sec .col-md-4 {
+    max-width: 100%;
+        margin-bottom: 40px;
+}
+    .icon_sec {
+    background: #F4EADF;
+    padding: 40px 0 0px;
+    text-align: center;
+}
+    .eco-friend {
+    padding: 40px 0;
+    text-align: center;
+}
+    .icon_sec h2 {
+    min-height: unset;
+}
+    .eco-friend img {
+    margin-top: 30px;
+}
+    section.pillow_product {
+        text-align: center;
+    padding: 40px 0;
+}
+    .products_in {
+    padding: 22px 5px;
+    min-height: 100px;
+    margin: 15px 0;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .mattress_in {
+    text-align: center;
+}
+    .row.cust_new_row {
+    flex-direction: column-reverse;
+}
+    .cust_new_row_in {
+    padding-top: 15px !important;
+}
+    .wale1_in {
+    max-width: 100%;
+    text-align: center;
+    margin: 25px 15px;
+}
+    .Woola_banner h2 {
+    font-size: 24px;
+}
+    .eco-friend h2 {
+    max-width: 100%;
+}
+    .icon_sec h2,section.bio-sec h3,.icon-about-us h3 {
+    font-size: 18px;
+    }
+    .third-rule-wrap h2, .eco-friend h2,.testomonial h2, .pillow_product h2, .Brain_custom h2, .Mattress_custom h2, .Distributor h2, .wale1_in h2, .about_cust_wrapper h2 {
+    font-size: 22px;
+}
+.reward_in h3{
+ font-size: 18px;
+}
+.about_cust_wrapper {
+    
+    padding: 20px 0;
+}
+    .style_round:before {
+    height: 35px;
+    width: 35px;
+    }
+    section.Brain_custom::after {
+   bottom:-80px;
+    width: 100%;
+    height: 80px;
+        background-size: 100% 100%;
+    }
+    .Brain_custom {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+    .icon-about-us .col-md-4,   .shadow-sec .col-md-4,.bio-sec .col-md-4 {
+    margin-bottom: 40px;
+}
+    .icon-about-us,section.shadow-sec,section.bio-sec  {
+    padding: 40px 0 0;
+}
+    section.bio-sec h3 {
+    margin-top: 15px;
+    }
+    .icon-about-us h3 {
+    min-height: unset;
+}
+    .abt-shadow_2 {
+    padding: 15px;
+    }
+    .abt-shadow_2 {
+    min-height: unset;
+    }
+    .page-template-shop .products-inner .attachment-.size-.wp-post-image {
+    height: auto;
+}
+    .tab-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.related-products   .product-slider.row {
+    justify-content: center;
+}
+    /*.tranding-product-item.col-4 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}*/
+}
+@media(max-width:450px){
+    .cust_product {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+    .single-product .product-slider-outer .tranding-product-thumb img {
+    height: 230px;
+}
+	.single-product .main_header header .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+	.page-template-shop header .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    section.tranding-product-wrapper.related-products .container {
+    margin-top: 30px;
+    padding-top: 30px;
+    }
+    .tranding-product-item.col-4 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+    .single-product .product-slider-outer h2 {
+    text-align: center;
+}
+    .page-template-shop .products-inner .attachment-.size-.wp-post-image {
+    height: auto;
+}
+    .page-template-shop .products-listing-outer h2.title.clearfix {
+    text-align: center;
+}
+
+.product_tabs_content li.nav-item {
+    width: 100%;
+}
+    body .top_bar .container{
+    max-width: 100%;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+    .top_bar a {
+    color: #fff;
+    font-size: 14px;
+}
+    .home .container, .page-template-about-us .container, .page-template-contact-us .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+@media(max-width:400px){
+    .single-product .sub-thumbs .owl-stage-outer img {
+    height: 35px;
+    padding: 5px;
+    max-width: 45px;
+}
+    }
